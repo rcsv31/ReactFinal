@@ -1,0 +1,50 @@
+.itemCountContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.item-button {
+  background-color: #ff2c6e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.item-button:hover {
+  background-color: #d62053;
+}
+
+.item-counter {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #631e6b;
+}
+
+.item-count {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ff2c6e;
+}
+
+.item-add-button {
+  background-color: #ff2c6e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.item-add-button:hover {
+  background-color: #d62053;
+}

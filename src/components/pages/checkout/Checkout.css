@@ -1,0 +1,38 @@
+.checkout-container {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #631e6b;
+  color: white;
+  border-radius: 10px;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ff2c6e;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: #ff2c6e;
+  margin-top: 3px;
+}
+
+.submit-btn {
+  background-color: #ff2c6e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #ff4f8e;
+}

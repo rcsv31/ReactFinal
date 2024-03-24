@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #631e6b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 50%;
+  height: auto;
+}
+
+.logo:hover {
+  filter: invert(48%) sepia(65%) saturate(7214%) hue-rotate(323deg)
+    brightness(100%) contrast(105%);
+}
+
+.categories {
+  display: flex;
+  align-self: center;
+  gap: 1.875rem;
+  width: 50%;
+  list-style: none;
+}
+
+.categories a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+
+.categories a:hover {
+  color: #ff2c6e;
+}
